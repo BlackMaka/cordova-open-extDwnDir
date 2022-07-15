@@ -22,7 +22,8 @@ public class opExtDwnDir extends CordovaPlugin {
 //
 //            return true;
 
-            private val READ_REQUEST_CODE: Int = 42
+            int READ_REQUEST_CODE = 42;
+
 
             // 파일을 가져오기 위해 ACTION_OPEN_DOCUMENT을 사용한다.
             Intent intent = new Intent(Intent.ACTION_OPEN_DOCUMENT);
