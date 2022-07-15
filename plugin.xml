@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugin
+    id="cordova-open-extDwnDir"
+    version="0.0.1"
+    xmlns="http://apache.org/cordova/ns/plugins/1.0"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+><name>opExtDwnDir</name
+><js-module name="opExtDwnDir" src="www/opExtDwnDir.js"
+><clobbers target="cordova.plugins.opExtDwnDir" /></js-module
+><platform name="android"
+><config-file parent="/*" target="res/xml/config.xml"
+><feature name="opExtDwnDir"
+><param
+    name="android-package"
+    value="com.open.opExtDwnDir.opExtDwnDir" /></feature></config-file
+><config-file parent="/*" target="AndroidManifest.xml" /><source-file
+    src="src/android/opExtDwnDir.java"
+    target-dir="src/com/open/opExtDwnDir/opExtDwnDir" /></platform
+></plugin>
